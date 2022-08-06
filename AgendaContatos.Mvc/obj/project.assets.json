@@ -8918,11 +8918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
       "projectName": "AgendaContatos.Mvc",
-      "projectPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
+      "projectPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\AgendaContatos.Mvc.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8939,8 +8939,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {
-              "projectPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Data\\AgendaContatos.Data.csproj"
+            "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj": {
+              "projectPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj"
             }
           }
         }

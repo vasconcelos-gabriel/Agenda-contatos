@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
       "projectName": "AgendaContatos.Data",
-      "projectPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
+      "projectPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Data\\obj\\",
+      "outputPath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",

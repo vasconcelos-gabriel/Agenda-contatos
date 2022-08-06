@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BiqxzrwhcLcj1slr/e0T1dDN2227f+ItY9iuTbtEp7jevVsivYfeVwSGsUP4kIPjVOW1e8BjfX41kBNw7B7wTQ==",
+  "dgSpecHash": "mchuH4dDXr4NkuiuamfVLsetZ+/ku2P91tXH/ZpJXeogXrQJHFFI7IHK04c38jg0KBX0/s6qjS0p4Dc1S8rfig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
+  "projectFilePath": "C:\\Users\\Home\\Documents\\Curso C#\\AgendaContatos\\AgendaContatos.Data\\AgendaContatos.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Home\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿
+﻿@** Classe de modelo que será utilizada por esta página*@
+@model AgendaContatos.Mvc.Models.AccountLoginModel
 @{
     Layout = "~/Views/Shared/_AccountLayout.cshtml";
 }
@@ -12,18 +13,30 @@
 
 
     </div>
-    <form>
+    @using(Html.BeginForm())
+
+    {
         <div class="mb-3">
             <label>Entre com seu email de acesso:</label>
-            <input type="text" class="form-control"/>
+            @Html.TextBoxFor(model => model.Email, new { @class = "form-control"})
+            <div class="text-danger">
+                @Html.ValidationMessageFor(model => model.Email)
+                </div>
+
         </div>
         <div class="mb-3">
             <label>Entre com sua senha de acesso:</label>
-            <input type="password" class="form-control"/>
+            @Html.PasswordFor(model => model.Senha, new { @class = "form-control"})
+            <div class="text-danger">
+              @Html.ValidationMessageFor(model => model.Senha)
+           </div>
+        </div>
+
+
             <div class="text-end">
                 <a href="/Account/PasswordRecover">Esqueci minha senha.</a>
             </div>
-        </div>
+       
         <div class="mb-3 d-grid">
                <input type="submit" class="btn btn-success" value="Acessar Agenda" />
              </div>
@@ -32,5 +45,9 @@
                 Não possui conta? <strong> Cadastre-se aqui! </strong>
                 </a>
         </div>
-    </form>
+        <div class="text-center">
+                 <strong>@TempData["Mensagem"]</strong>
+
+             </div>
+    }
  </div>
