@@ -25,13 +25,28 @@ namespace AgendaContatos.Data.Repositories
                       @IdUsuario,
                       @Nome,
                       @Email,
-                     CONVERT (VARCHAR(32), HASHBYTES('MD5',@Senha), 2),
+                      CONVERT (VARCHAR(32), HASHBYTES('MD5',@Senha), 2),
                       @DataCadastro)
         ";
             using (var connection = new SqlConnection(SqlServerConfiguration.GetConnectionString()))
             {
                 connection.Execute(sql, usuario);
             }
+        }
+
+        //metódo para atualizar a senha do usuário
+        public void Update(Guid idUsuario, string novaSenha)
+        {
+            var sql = @"
+                UPDATE USUARIO SET SENHA = CONVERT (VARCHAR(32), HASHBYTES('MD5',@novaSenha), 2)
+                WHERE IDUSUARIO = @idUsuario
+
+           ";
+            using(var connection = new SqlConnection(SqlServerConfiguration.GetConnectionString()))
+            {
+                connection.Execute(sql, new { idUsuario, novaSenha });
+            }
+
         }
 
         public Usuario GetByEmail(string email)
@@ -63,6 +78,9 @@ namespace AgendaContatos.Data.Repositories
             }
 
         }
+
+
+     
             
     }
 }

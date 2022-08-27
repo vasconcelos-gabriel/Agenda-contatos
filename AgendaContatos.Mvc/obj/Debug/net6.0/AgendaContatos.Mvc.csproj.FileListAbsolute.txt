@@ -490,3 +490,6 @@ C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\obj\Debug\net
 C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\obj\Debug\net6.0\AgendaContatos.Mvc.pdb
 C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\obj\Debug\net6.0\AgendaContatos.Mvc.genruntimeconfig.cache
 C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\obj\Debug\net6.0\ref\AgendaContatos.Mvc.dll
+C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\bin\Debug\net6.0\Bogus.dll
+C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\bin\Debug\net6.0\AgendaContatos.Messages.dll
+C:\Users\Home\Documents\Curso C#\AgendaContatos\AgendaContatos.Mvc\bin\Debug\net6.0\AgendaContatos.Messages.pdb
